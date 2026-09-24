@@ -1,0 +1,9 @@
+{
+  "name": "afterglow-fireworks",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline Three.js fireworks particle scene, four burst shapes and water reflections.",
+  "scripts": { "build": "node build.cjs" },
+  "dependencies": { "three": "0.180.0" },
+  "devDependencies": { "esbuild": "^0.25.0" }
+}

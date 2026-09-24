@@ -1,0 +1,167 @@
+{
+  "count": 25,
+  "final": {
+    "active": 13023,
+    "auto": false,
+    "bloom": true,
+    "capacity": 26000,
+    "checksum": 742.2650480270386,
+    "colorsPresent": 8,
+    "density": 1,
+    "exploded": 29,
+    "finite": true,
+    "fps": 39,
+    "geometries": 18,
+    "heads": 860,
+    "lastShape": "ring",
+    "launched": 31,
+    "lit": 13023,
+    "nextAuto": 25.349999999999877,
+    "palette": "aurora",
+    "paused": true,
+    "queued": 0,
+    "rockets": 0,
+    "shape": "peony",
+    "showRemaining": 0,
+    "textures": 13,
+    "time": 48.066666666665235,
+    "viewport": [
+      1258,
+      566
+    ]
+  },
+  "passed": true,
+  "tests": [
+    {
+      "detail": null,
+      "name": "离线加载且完成初始化",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "动画循环推进时间和粒子位置",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "自动燃放可关闭",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "暂停冻结时钟与位置",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "恢复播放",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "按钮发射火箭",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "火箭爆炸为大量粒子",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "爆炸粒子持续移动",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "造型执行：peony",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "造型执行：willow",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "造型执行：ring",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "造型执行：heart",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "配色切换",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "密度滑块",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "齐放生成九枚火箭",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "高密度齐放数值与容量有效",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "生命周期结束回收全部粒子",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "光晕关闭",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "点击夜空定点发射",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "沉浸模式进出",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "截图按钮生成 PNG 下载",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "无远程脚本图片依赖",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "自动发射可恢复",
+      "passed": true
+    },
+    {
+      "detail": {
+        "after": 18,
+        "before": 18
+      },
+      "name": "重复发射不增加几何与贴图数量",
+      "passed": true
+    },
+    {
+      "detail": {
+        "colors": 8,
+        "heads": 860
+      },
+      "name": "多束不同颜色烟花并存且主粒子未被拖尾覆盖",
+      "passed": true
+    }
+  ]
+}
