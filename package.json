@@ -1,0 +1,9 @@
+{
+  "name": "sunlit-bay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An animated Three.js seaside town reconstructed from a visual reference. Standalone index.html works offline.",
+  "scripts": { "start": "node server.cjs", "build": "node build.cjs" },
+  "dependencies": { "three": "0.180.0" },
+  "devDependencies": { "esbuild": "^0.25.0" }
+}

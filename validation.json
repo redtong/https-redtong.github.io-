@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "name": "场景加载与居民数量",
+      "passed": true,
+      "details": {
+        "characters": 12
+      }
+    },
+    {
+      "name": "人物沿路径行走",
+      "passed": true,
+      "details": {
+        "distance": 0.1429103496693698
+      }
+    },
+    {
+      "name": "喷泉水滴位置改变",
+      "passed": true
+    },
+    {
+      "name": "暂停冻结人物和世界时间",
+      "passed": true
+    },
+    {
+      "name": "恢复播放继续前进",
+      "passed": true
+    },
+    {
+      "name": "全员跳舞改变关节姿态",
+      "passed": true,
+      "details": {
+        "armZ": 1.055994437873397
+      }
+    },
+    {
+      "name": "暖光切换",
+      "passed": true
+    },
+    {
+      "name": "居民选择与镜头聚焦",
+      "passed": true
+    },
+    {
+      "name": "点击人物触发挥手",
+      "passed": true,
+      "details": {
+        "armZ": 2.3966145956402807
+      }
+    },
+    {
+      "name": "重置镜头",
+      "passed": true
+    },
+    {
+      "name": "切换广场近景",
+      "passed": true
+    },
+    {
+      "name": "镜头自动环绕",
+      "passed": true
+    },
+    {
+      "name": "原图对照弹窗",
+      "passed": true
+    },
+    {
+      "name": "动画倍速",
+      "passed": true
+    },
+    {
+      "name": "空格快捷键暂停",
+      "passed": true
+    },
+    {
+      "name": "场景截图可导出",
+      "passed": true,
+      "details": {
+        "bytes": 882161
+      }
+    },
+    {
+      "name": "无外部网络依赖",
+      "passed": true
+    },
+    {
+      "name": "三维物体变换数值有效",
+      "passed": true,
+      "details": {
+        "meshes": 875
+      }
+    }
+  ],
+  "viewport": {
+    "width": 1258,
+    "height": 566
+  },
+  "render": {
+    "frame": 701,
+    "calls": 802,
+    "triangles": 936272,
+    "points": 310,
+    "lines": 0
+  }
+}
